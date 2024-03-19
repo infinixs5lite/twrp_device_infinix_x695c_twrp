@@ -140,10 +140,8 @@ PLATFORM_SECURITY_PATCH := 2099-12-31
 VENDOR_SECURITY_PATCH := 2099-12-31
 PLATFORM_VERSION := 16.1.0
 
-## TWRP-Specific configuration
-
+# TWRP-Specific configuration
 TW_THEME := portrait_hdpi
-TW_DEVICE_VERSION := by_Rama982
 TW_EXTRA_LANGUAGES := true
 TW_INCLUDE_NTFS_3G := true
 TW_HAS_MTP := true
@@ -152,6 +150,7 @@ TW_INCLUDE_REPACKTOOLS := true
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
 TARGET_USES_MKE2FS := true
+TW_DEVICE_VERSION := NINO KELVIN
 
 # Device config
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
